@@ -139,20 +139,31 @@ Design patterns can generally be divided into thee categories:
     <tr>
         <td> 2.5 </td>
         <td> Facade </td>
-        <td></td>
-        <td> <a href="url">link text</a> </td>
+        <td>
+            provides simpler unified interface to a more complex system -> allows
+            an easier way to access methods of the underlying system by providing
+            a single entry point
+        </td>
+        <td> <a href="/src/2_structural/2_05_facade.py">/src/2_structural/2_05_facade.py</a> </td>
     </tr>
     <tr>
         <td> 2.6 </td>
         <td> Flyweight </td>
-        <td></td>
-        <td> <a href="url">link text</a> </td>
+        <td>
+            minimize the number of objects at run-time -> create an immutable
+            flyweight object which is shared by multiple contexts while being
+            indistinguishable from a "normal" object that is not shared
+        </td>
+        <td> <a href="/src/2_structural/2_06_flyweight.py">/src/2_structural/2_06_flyweight.py</a> </td>
     </tr>
     <tr>
         <td> 2.7 </td>
         <td> Proxy </td>
-        <td></td>
-        <td> <a href="url">link text</a> </td>
+        <td>
+            allows to provide a substitute or placeholder for another object to 
+            represent its functionality
+        </td>
+        <td> <a href="/src/2_structural/2_07_proxy.py">/src/2_structural/2_07_proxy.py</a> </td>
     </tr>
 </table>
 

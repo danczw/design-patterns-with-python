@@ -76,6 +76,10 @@ def iteration(specimen: list) -> list:
 
 
 # create facade
+# - easily isolate our code from the complexity of a subsystem
+# - makes the process of testing comparatively easy since it has convenient
+#   methods for common testing tasks
+# - implements loose coupling between the clients and the Subsystems
 class Simulation:
     def __init__(self, hawk_number, dove_number):
         self.population = []
