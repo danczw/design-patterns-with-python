@@ -4,6 +4,7 @@
 
 from abc import ABC, abstractmethod
 
+
 # create base class
 class Shape(ABC):
     @abstractmethod
@@ -21,13 +22,13 @@ class Square(Shape):
         self.shape_type = 'square'
         self.width = width
     
-    def __str__(self):
+    def __str__(self) -> str:
         return self.shape_type
     
-    def calc_area(self):
+    def calc_area(self) -> int:
         return self.width ** 2
     
-    def calc_circumference(self):
+    def calc_circumference(self) -> int:
         return self.width * 4
 
 class Circle(Shape):
@@ -36,14 +37,13 @@ class Circle(Shape):
         self.pi = 3.1415926535
         self.radius = radius
         
-    def __str__(self):
+    def __str__(self) -> str:
         return self.shape_type
     
-    def calc_area(self):
-        
+    def calc_area(self) -> float:
         return self.radius * self.radius * self.pi
     
-    def calc_circumference(self):
+    def calc_circumference(self) -> float:
         return self.radius * self.pi * 2
     
 
