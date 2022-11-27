@@ -103,13 +103,18 @@ Design patterns can generally be divided into thee categories:
             a bridge between them -> allows to use existing classes with new
             interfaces
         </td>
-        <td> <a href="/src/1_structural/1_06_adapter.py">/src/1_structural/1_06_adapter.py</a> </td>
+        <td> <a href="/src/2_structural/2_01_adapter.py">/src/2_structural/2_01_adapter.py</a> </td>
     </tr>
     <tr>
         <td> 2.2 </td>
         <td> Bridge </td>
-        <td></td>
-        <td> <a href="url">link text</a> </td>
+        <td>
+            allows to separate Implementation Specific Abstractions and
+            Implementation Independent Abstractions, so that both can
+            vary independently -> allows to decouple an abstraction from its
+            implementation
+        </td>
+        <td> <a href="/src/2_structural/2_02_bridge.py">/src/2_structural/2_02_bridge.py</a> </td>
     </tr>
     <tr>
         <td> 2.3 </td>

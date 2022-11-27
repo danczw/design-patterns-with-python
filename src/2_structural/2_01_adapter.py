@@ -1,4 +1,4 @@
-# factory method - structural design pattern
+# adapter method - structural design pattern
 #   helps to make two incompatible interfaces work together by creating a bridge
 #   between them -> allows to use existing classes with new interfaces
 
