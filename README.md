@@ -129,8 +129,12 @@ Design patterns can generally be divided into thee categories:
     <tr>
         <td> 2.4 </td>
         <td> Decorator </td>
-        <td></td>
-        <td> <a href="url">link text</a> </td>
+        <td>
+            allows to dynamically attach new behaviors to objects without
+            changing their implementation by placing these objects inside the
+            wrapper objects that contains the behaviors
+        </td>
+        <td> <a href="/src/2_structural/2_04_decorator.py">/src/2_structural/2_04_decorator.py</a> </td>
     </tr>
     <tr>
         <td> 2.5 </td>

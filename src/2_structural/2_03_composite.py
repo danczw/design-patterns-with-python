@@ -23,6 +23,11 @@ class Box(Item):
         return price
 
 # create second leaf class level
+# - with introduction of new elements, classes and interfaces are allowed into
+#   the application without breaking the existing code
+# - create less numbers of objects as compared to ordinary methods
+# - provides flexibility of structure with manageable class or interface as it
+#   defines class hierarchies that contains primitive and complex objects
 class Phone(Item):
     def __init__(self, price: int):
         self.price = price
