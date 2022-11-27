@@ -74,7 +74,9 @@ Design patterns can generally be divided into thee categories:
     <tr>
         <td> 1.5 </td>
         <td> Singleton </td>
-        <td></td>
+        <td>
+            provides one and only one instance of a particular class or object type
+        </td>
         <td> <a href="/src/1_creational/1_05_singleton.py">/src/1_creational/1_05_singleton.py</a> </td>
     </tr>
 </table>
