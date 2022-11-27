@@ -98,8 +98,12 @@ Design patterns can generally be divided into thee categories:
     <tr>
         <td> 2.1 </td>
         <td> Adapter </td>
-        <td></td>
-        <td> <a href="url">link text</a> </td>
+        <td>
+            helps to make two incompatible interfaces work together by creating
+            a bridge between them -> allows to use existing classes with new
+            interfaces
+        </td>
+        <td> <a href="/src/1_structural/1_06_adapter.py">/src/1_structural/1_06_adapter.py</a> </td>
     </tr>
     <tr>
         <td> 2.2 </td>
