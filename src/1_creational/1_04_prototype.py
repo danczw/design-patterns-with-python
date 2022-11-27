@@ -10,7 +10,7 @@ from copy import deepcopy
 # - keeps number of subclasses to a minimum
 class Prototype(ABC):
     @abstractmethod
-    def clone(self):
+    def clone(self) -> None:
         pass
     
 
@@ -23,7 +23,7 @@ class HugeDataObject(Prototype):
     def __str__(self) -> int:
         return f'object data size: {len(self.data)}'
     
-    def clone(self) -> 'HugeDataObject':
+    def clone(self) -> object:
         return deepcopy(self)
 
 

@@ -28,7 +28,7 @@ class Singleton():
         return cls.__instance__
 
     @staticmethod
-    def get_instance():
+    def get_instance() -> object:
         if not Singleton.__instance__:
             Singleton()
         return Singleton.__instance__

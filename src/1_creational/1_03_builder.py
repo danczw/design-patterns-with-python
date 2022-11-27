@@ -46,39 +46,39 @@ class Robot:
 
 # create modules
 class BipedalLegs:
-    def __str__(self):
+    def __str__(self) -> str:
         return "two legs"
 
 class QuadripedalLegs:
-    def __str__(self):
+    def __str__(self) -> str:
         return "four legs"
 
 class Arms:
-    def __str__(self):
+    def __str__(self) -> str:
         return "four legs"
 
 class Wings:
-    def __str__(self):
+    def __str__(self) -> str:
         return "wings"
 
 class Blades:
-    def __str__(self):
+    def __str__(self) -> str:
         return "blades"
 
 class FourWheels:
-    def __str__(self):
+    def __str__(self) -> str:
         return "four wheels"
 
 class TwoWheels:
-    def __str__(self):
+    def __str__(self) -> str:
         return "two wheels"
 
 class CameraDetectionSystem:
-    def __str__(self):
+    def __str__(self) -> str:
         return "cameras"
 
 class InfraredDetectionSystem:
-    def __str__(self):
+    def __str__(self) -> str:
         return "infrared"
 
 # create abstract builder class
@@ -104,35 +104,35 @@ class AndroidBuilder(RobotBuilder):
     def __init__(self):
         self.product = Robot()
 
-    def reset(self):
+    def reset(self) -> None:
         self.product = Robot()
 
-    def get_product(self):
+    def get_product(self) -> Robot:
         return self.product
 
-    def build_traversal(self):
+    def build_traversal(self) -> None:
         self.product.bipedal = True
         self.product.traversal.append(BipedalLegs())
         self.product.traversal.append(Arms())
 
-    def build_detection_system(self):
+    def build_detection_system(self) -> None:
         self.product.detection_systems.append(CameraDetectionSystem())
 
 class AutonomousCarBuilder(RobotBuilder):
     def __init__(self):
         self.product = Robot()
 
-    def reset(self):
+    def reset(self) -> None:
         self.product = Robot()
 
-    def get_product(self):
+    def get_product(self) -> Robot:
         return self.product
 
-    def build_traversal(self):
+    def build_traversal(self) -> None:
         self.product.wheeled = True
         self.product.traversal.append(FourWheels())
 
-    def build_detection_system(self):
+    def build_detection_system(self) -> None:
         self.product.detection_systems.append(InfraredDetectionSystem())
         
 
@@ -140,12 +140,12 @@ class AutonomousCarBuilder(RobotBuilder):
 # - construct objects using the builder interface
 # - can be used if particular builders are relatively standard
 class Director:
-    def make_android(self, builder):
+    def make_android(self, builder) -> Robot:
         builder.build_traversal()
         builder.build_detection_system()
         return builder.get_product()
 
-    def make_autonomous_car(self, builder):
+    def make_autonomous_car(self, builder) -> Robot:
         builder.build_traversal()
         builder.build_detection_system()
         return builder.get_product()

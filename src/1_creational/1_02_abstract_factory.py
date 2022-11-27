@@ -59,11 +59,11 @@ class Apfelstruddel(Meal):
 # - assures compatibility between objects of factory
 class Factory(ABC):
     @abstractmethod
-    def get_meal(self, meal_type: str):
+    def get_meal(self, meal_type: str) -> None:
         pass
 
 class ItalianMealFactory(Factory):
-    def get_meal(self, meal_type: str):
+    def get_meal(self, meal_type: str) -> object:
         localizer = {
             'main': Pizza,
             'dessert': Tiramisu
@@ -72,7 +72,7 @@ class ItalianMealFactory(Factory):
         return localizer[meal_type.lower()]()
 
 class AustrianMealFactory(Factory):
-    def get_meal(self, meal_type: str):
+    def get_meal(self, meal_type: str) -> object:
         localizer = {
             'main': Schnitzel,
             'dessert': Apfelstruddel
@@ -81,7 +81,7 @@ class AustrianMealFactory(Factory):
         return localizer[meal_type.lower()]()
 
 class FactoryProducer:
-    def get_factory(self, factory_type: str):
+    def get_factory(self, factory_type: str) -> object:
         localizer = {
             'italian': ItalianMealFactory,
             'austrian': AustrianMealFactory

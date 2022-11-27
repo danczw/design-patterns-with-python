@@ -8,7 +8,7 @@ from abc import ABC, abstractmethod
 # create existing base class
 class PngInterface(ABC):
     @abstractmethod
-    def draw(self):
+    def draw(self) -> None:
         pass
 
 class PngImage(PngInterface):
@@ -16,10 +16,10 @@ class PngImage(PngInterface):
         self.png = png
         self.format = 'raster'
         
-    def draw(self):
+    def draw(self) -> str:
         print('drawing ' + self.get_image())
             
-    def get_image(self):
+    def get_image(self) -> str:
         return 'png'
 
 # create new class
@@ -28,7 +28,7 @@ class SvgImage:
         self.svg = svg
         self.format = 'vector'
         
-    def get_image(self):
+    def get_image(self) -> str:
         return 'svg'
 
 # create object adapter
@@ -39,10 +39,10 @@ class SvgAdapter(PngInterface):
     def __init__(self, svg):
         self.svg = svg
         
-    def rasterize(self):
+    def rasterize(self) -> str:
         return 'rasterized ' + self.svg.get_image()
     
-    def draw(self):
+    def draw(self) -> None:
         img = self.rasterize()
         print('drawing ' + img)
 
@@ -56,16 +56,16 @@ class ConvertingNonVector(Exception):
     pass
 
 class ClassAdapter(PngImage, SvgImage):
-    def __init__(self, image):
+    def __init__(self, image: object):
         self.image = image
         
-    def rasterize(self):
+    def rasterize(self) -> str:
         if(self.image.format == "vector"):
             return "rasterized " + self.image.get_image()
         else:
             raise ConvertingNonVector
         
-    def draw(self):
+    def draw(self) -> str:
         try:
             img = self.rasterize()
             print("drawing " + img)

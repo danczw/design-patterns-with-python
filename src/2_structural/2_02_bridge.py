@@ -34,7 +34,7 @@ class Wood(Material):
 #   can be introduces as well as implementations independently from each other
 class Building(ABC):
     @abstractmethod
-    def print_name(self):
+    def print_name(self) -> None:
         pass
         
 class Tower(Building):
@@ -42,7 +42,7 @@ class Tower(Building):
         self.name = name
         self.material = material
         
-    def print_name(self):
+    def print_name(self) -> str:
         print(str(self.material) + ' tower ' + self.name)
         
 class Mill(Building):
@@ -50,7 +50,7 @@ class Mill(Building):
         self.name = name
         self.material = material
         
-    def print_name(self):
+    def print_name(self) -> str:
         print(str(self.material) + ' mill ' + self.name)
 
 

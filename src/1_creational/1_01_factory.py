@@ -51,7 +51,7 @@ class Circle(Shape):
 # - allows to easily add new types of subclasses
 # - avoids tight coupling between base, sub and creator classes 
 class Factory:
-    def create_shape(self, name: str, width: int):
+    def create_shape(self, name: str, width: int) -> Shape:
         localizer = {
             'square': Square,
             'circle': Circle

@@ -8,7 +8,7 @@ from abc import ABC, abstractmethod
 # create base class
 class Item(ABC):
     @abstractmethod
-    def return_price(self):
+    def return_price(self) -> None:
         pass
     
 # create first leaf class level
@@ -16,7 +16,7 @@ class Box(Item):
     def __init__(self, contents):
         self.contents = contents
         
-    def return_price(self):
+    def return_price(self) -> int:
         price = 0
         for item in self.contents:
             price = price + item.return_price()
@@ -24,24 +24,24 @@ class Box(Item):
 
 # create second leaf class level
 class Phone(Item):
-    def __init__(self, price):
+    def __init__(self, price: int):
         self.price = price
         
-    def return_price(self):
+    def return_price(self) -> int:
         return self.price
 
 class Charger(Item):
-    def __init__(self, price):
+    def __init__(self, price: int):
         self.price = price
         
-    def return_price(self):
+    def return_price(self) -> int:
         return self.price
 
 class Earphones(Item):
-    def __init__(self, price):
+    def __init__(self, price: int):
         self.price = price
         
-    def return_price(self):
+    def return_price(self) -> int:
         return self.price
 
 
