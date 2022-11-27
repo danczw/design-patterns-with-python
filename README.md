@@ -62,7 +62,7 @@ Design patterns can generally be divided into thee categories:
     </tr>
     <tr>
         <td> 1.4 </td>
-        <td> Singleton </td>
+        <td> Prototype </td>
         <td>
             aims to reduce number of classes used for an application by allowing
             to copy existing objects independent of the concrete implementation
@@ -73,9 +73,9 @@ Design patterns can generally be divided into thee categories:
     </tr>
     <tr>
         <td> 1.5 </td>
-        <td> Prototype </td>
+        <td> Singleton </td>
         <td></td>
-        <td> <a href="url">link text</a> </td>
+        <td> <a href="/src/1_creational/1_05_singleton.py">/src/1_creational/1_05_singleton.py</a> </td>
     </tr>
 </table>
 

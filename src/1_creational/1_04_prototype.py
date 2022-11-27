@@ -7,8 +7,7 @@ from abc import ABC, abstractmethod
 from copy import deepcopy
 
 # create prototype class
-# - can contain all necessary attributes and methods that cloned objects will have
-# - usually includes a clone method that returns a copy of the object
+# - keeps number of subclasses to a minimum
 class Prototype(ABC):
     @abstractmethod
     def clone(self):
