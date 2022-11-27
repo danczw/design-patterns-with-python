@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "design_patterns_with_python"
+version = "0.1.0"
+description = "Design Patterns is the most essential part of Software Engineering, as they provide the general repeatable solution to a commonly occurring problem in software design."
+authors = ["danczw <dev.dc@pm.me>"]
+license = "Apache License 2.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.2.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
