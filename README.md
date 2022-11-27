@@ -28,7 +28,7 @@ Design patterns can generally be divided into thee categories:
         <th> ID </th>
         <th> Pattern </th>
         <th> Description </th>
-        <th> Link </th>
+        <th> Implementation </th>
     </tr>
     <tr>
         <td> 1.1 </td>
@@ -37,7 +37,7 @@ Design patterns can generally be divided into thee categories:
             provides interface for creating objects in a superclass, but allows
             subclasses to alter the type of objects that will be created
         </td>
-        <td> <a href="url">link text</a> </td>
+        <td> <a href="/src/1_creational/1_01_factory.py">/src/1_creational/1_01_factory.py</a> </td>
     </tr>
     <tr>
         <td> 1.2 </td>
