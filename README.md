@@ -15,6 +15,8 @@ These design patterns can be used as templates, describing how to solve particul
 
 Design patterns can generally be divided into thee categories:
 
+<br>
+
 **1️⃣ Creational**
 
 - focus on class instantiation or object creation
@@ -23,36 +25,45 @@ Design patterns can generally be divided into thee categories:
 
 <table>
     <tr>
-        <th>ID</th>
-        <th>Pattern</th>
-        <th>Description</th>
-        <th>Link</th>
+        <th> ID </th>
+        <th> Pattern </th>
+        <th> Description </th>
+        <th> Link </th>
     </tr>
     <tr>
-        <td>1.1<td>
-        <td>Factory<td>
-        <td>abc<td>
-        <td>abc<td>
+        <td> 1.1 </td>
+        <td> Factory </td>
+        <td>
+            provides interface for creating objects in a superclass, but allows
+            subclasses to alter the type of objects that will be created
+        </td>
+        <td> <a href="url">link text</a> </td>
     </tr>
     <tr>
-        <td>1.2<td>
-        <td>Abstract Factory<td>
-        <td>abc<td>
-        <td>  <td>
+        <td> 1.2 </td>
+        <td> Abstract Factory </td>
+        <td></td>
+        <td> <a href="url">link text</a> </td>
+    </tr>
+    <tr>
+        <td> 1.3 </td>
+        <td> Builder </td>
+        <td></td>
+        <td> <a href="url">link text</a> </td>
+    </tr>
+    <tr>
+        <td> 1.4 </td>
+        <td> Singleton </td>
+        <td></td>
+        <td> <a href="url">link text</a> </td>
+    </tr>
+    <tr>
+        <td> 1.5 </td>
+        <td> Prototype </td>
+        <td></td>
+        <td> <a href="url">link text</a> </td>
     </tr>
 </table>
-
-    1. Factory
-
-    2. Abstract Factory
-
-    3. Builder
-
-    4. Singleton
-
-    5. Object Pool
-
-    6. Prototype
 
 <br>
 
@@ -63,85 +74,130 @@ Design patterns can generally be divided into thee categories:
 
 <table>
     <tr>
+        <th>ID</th>
         <th>Pattern</th>
         <th>Description</th>
         <th>Link</th>
     </tr>
     <tr>
-        <td><td>
-        <td><td>
-        <td><td>
+        <td> 2.1 </td>
+        <td> Adapter </td>
+        <td></td>
+        <td> <a href="url">link text</a> </td>
     </tr>
     <tr>
-        <td><td>
-        <td><td>
-        <td><td>
+        <td> 2.2 </td>
+        <td> Bridge </td>
+        <td></td>
+        <td> <a href="url">link text</a> </td>
+    </tr>
+    <tr>
+        <td> 2.3 </td>
+        <td> Composite </td>
+        <td></td>
+        <td> <a href="url">link text</a> </td>
+    </tr>
+    <tr>
+        <td> 2.4 </td>
+        <td> Decorator </td>
+        <td></td>
+        <td> <a href="url">link text</a> </td>
+    </tr>
+    <tr>
+        <td> 2.5 </td>
+        <td> Facade </td>
+        <td></td>
+        <td> <a href="url">link text</a> </td>
+    </tr>
+    <tr>
+        <td> 2.6 </td>
+        <td> Flyweight </td>
+        <td></td>
+        <td> <a href="url">link text</a> </td>
+    </tr>
+    <tr>
+        <td> 2.7 </td>
+        <td> Proxy </td>
+        <td></td>
+        <td> <a href="url">link text</a> </td>
     </tr>
 </table>
 
-    1. Adapter
-
-    2. Bridge
-
-    3. Composite
-
-    4. Decorator
-
-    5. Facade
-
-    6. Flyweight
-
-    7. Private Class Data
-
-    8. Proxy
-
 <br>
 
-**3️⃣ Behavioural**
+**3️⃣ Behavioral**
 
 - focus on identifying and realizing common communication patterns between objects
 
 <table>
     <tr>
+        <th>ID</th>
         <th>Pattern</th>
         <th>Description</th>
         <th>Link</th>
     </tr>
     <tr>
-        <td><td>
-        <td><td>
-        <td><td>
+        <td> 3.1 </td>
+        <td> Chain of Responsibility </td>
+        <td></td>
+        <td> <a href="url">link text</a> </td>
     </tr>
     <tr>
-        <td><td>
-        <td><td>
-        <td><td>
+        <td> 3.2 </td>
+        <td> Command </td>
+        <td></td>
+        <td> <a href="url">link text</a> </td>
     </tr>
+    <tr>
+        <td> 3.3 </td>
+        <td> Iterator </td>
+        <td></td>
+        <td> <a href="url">link text</a> </td>
+    </tr>
+    <tr>
+        <td> 3.4 </td>
+        <td> Mediator </td>
+        <td></td>
+        <td> <a href="url">link text</a> </td>
+    </tr>
+    <tr>
+        <td> 3.5 </td>
+        <td> Memento </td>
+        <td></td>
+        <td> <a href="url">link text</a> </td>
+    </tr>
+    <tr>
+        <td> 3.6 </td>
+        <td> Observer </td>
+        <td></td>
+        <td> <a href="url">link text</a> </td>
+    </tr>
+    <tr>
+        <td> 3.7 </td>
+        <td> State </td>
+        <td></td>
+        <td> <a href="url">link text</a> </td>
+    </tr>
+    <tr>
+        <td> 3.8 </td>
+        <td> Strategy </td>
+        <td></td>
+        <td> <a href="url">link text</a> </td>
+    </tr>
+    <tr>
+        <td> 3.9 </td>
+        <td> Template </td>
+        <td></td>
+        <td> <a href="url">link text</a> </td>
+    </tr>
+    <tr>
+        <td> 3.10 </td>
+        <td> Visitor </td>
+        <td></td>
+        <td> <a href="url">link text</a> </td>
+    </tr>
+    
 </table>
-
-    1. Chain of responsibility
-
-    2. Command
-
-    3. Interpreter
-
-    4. Iterator
-
-    5. Mediator
-
-    6. Memento
-
-    7. Null Object
-
-    8. Observer
-
-    9. State
-
-    10. Strategy
-
-    11. Template method
-
-    12. Visitor
 
 <br>
 
