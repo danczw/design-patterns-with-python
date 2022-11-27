@@ -34,7 +34,7 @@ Design patterns can generally be divided into thee categories:
         <td> 1.1 </td>
         <td> Factory </td>
         <td>
-            provides interface for creating objects in a superclass, but allows
+            provides interface for creating objects in a base class, but allows
             subclasses to alter the type of objects that will be created
         </td>
         <td> <a href="/src/1_creational/1_01_factory.py">/src/1_creational/1_01_factory.py</a> </td>
@@ -42,14 +42,23 @@ Design patterns can generally be divided into thee categories:
     <tr>
         <td> 1.2 </td>
         <td> Abstract Factory </td>
-        <td></td>
-        <td> <a href="url">link text</a> </td>
+        <td>
+            allows to produce families of related objects without specifying
+            their concrete classes -> easy way to produce similar type of many
+            objects
+        </td>
+        <td> <a href="/src/1_creational/1_02_abstract_factory.py">/src/1_creational/1_02_abstract_factory.py</a> </td>
     </tr>
     <tr>
         <td> 1.3 </td>
         <td> Builder </td>
-        <td></td>
-        <td> <a href="url">link text</a> </td>
+        <td>
+            separates the construction of a complex object from its
+            representation, allowing the same construction process to create
+            different representations -> construct complex objects step by step
+            by providing flexibility to various object creation problems
+        </td>
+        <td> <a href="/src/1_creational/1_03_builder.py">/src/1_creational/1_03_builder.py</a> </td>
     </tr>
     <tr>
         <td> 1.4 </td>
@@ -211,3 +220,17 @@ Design patterns can generally be divided into thee categories:
 The project uses [Poetry](https://python-poetry.org) to manage the project dependencies. Install dependencies via:
 
     `poetry install`
+
+<br>
+
+----------------
+----------------
+
+<br>
+
+## Source
+
+For more information about the patterns, check out:
+- [Python Wife - Design Patterns in Python](https://pythonwife.com/design-patterns-in-python/)
+- [StackAbuse - Design Patterns in Python](https://stackabuse.com/design-patterns-in-python/)
+- [Geeks for Geeks - Python Design Patterns](https://www.geeksforgeeks.org/python-design-patterns/)
