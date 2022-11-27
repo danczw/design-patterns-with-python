@@ -119,8 +119,12 @@ Design patterns can generally be divided into thee categories:
     <tr>
         <td> 2.3 </td>
         <td> Composite </td>
-        <td></td>
-        <td> <a href="url">link text</a> </td>
+        <td>
+            compose objects into tree structures to represent whole-partial
+            hierarchies -> allows to treat individual objects and compositions
+            of objects uniformly
+        </td>
+        <td> <a href="/src/2_structural/2_03_composite.py">/src/2_structural/2_03_composite.py</a> </td>
     </tr>
     <tr>
         <td> 2.4 </td>
