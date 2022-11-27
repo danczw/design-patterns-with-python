@@ -63,8 +63,13 @@ Design patterns can generally be divided into thee categories:
     <tr>
         <td> 1.4 </td>
         <td> Singleton </td>
-        <td></td>
-        <td> <a href="url">link text</a> </td>
+        <td>
+            aims to reduce number of classes used for an application by allowing
+            to copy existing objects independent of the concrete implementation
+            of their class at run-time (important e.g., when object creation is
+            expensive)
+        </td>
+        <td> <a href="/src/1_creational/1_04_prototype.py">/src/1_creational/1_04_prototype.py</a> </td>
     </tr>
     <tr>
         <td> 1.5 </td>
