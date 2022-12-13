@@ -36,6 +36,7 @@ class AccessManager(PatientFileManager):
             return self.fm._get_patient(patient_id)
         else:
             print("Only their doctor can access this patients data.")
+            return [None]
 
 
 # run method

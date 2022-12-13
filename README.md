@@ -184,61 +184,61 @@ Design patterns can generally be divided into thee categories:
         <td> 3.1 </td>
         <td> Chain of Responsibility </td>
         <td></td>
-        <td> <a href="url">link text</a> </td>
+        <td> <a href="src/3_behavioral/3_01_chain_of_responsibility.py">src/3_behavioral/3_01_chain_of_responsibility.py</a> </td>
     </tr>
     <tr>
         <td> 3.2 </td>
         <td> Command </td>
         <td></td>
-        <td> <a href="url">link text</a> </td>
+        <td> <a href="src/3_behavioral/3_02_command.py">src/3_behavioral/3_02_command.py</a> </td>
     </tr>
     <tr>
         <td> 3.3 </td>
         <td> Iterator </td>
         <td></td>
-        <td> <a href="url">link text</a> </td>
+        <td> <a href="src/3_behavioral/3_03_iterator.py">src/3_behavioral/3_03_iterator.py</a> </td>
     </tr>
     <tr>
         <td> 3.4 </td>
         <td> Mediator </td>
         <td></td>
-        <td> <a href="url">link text</a> </td>
+        <td> <a href="src/3_behavioral/3_04_mediator.py">src/3_behavioral/3_04_mediator.py</a> </td>
     </tr>
     <tr>
         <td> 3.5 </td>
         <td> Memento </td>
         <td></td>
-        <td> <a href="url">link text</a> </td>
+        <td> <a href="src/3_behavioral/3_05_memento.py">src/3_behavioral/3_05_memento.py</a> </td>
     </tr>
     <tr>
         <td> 3.6 </td>
         <td> Observer </td>
         <td></td>
-        <td> <a href="url">link text</a> </td>
+        <td> <a href="src/3_behavioral/3_06_observer.py">src/3_behavioral/3_06_observer.py</a> </td>
     </tr>
     <tr>
         <td> 3.7 </td>
         <td> State </td>
         <td></td>
-        <td> <a href="url">link text</a> </td>
+        <td> <a href="src/3_behavioral/3_07_state.py">src/3_behavioral/3_07_state.py</a> </td>
     </tr>
     <tr>
         <td> 3.8 </td>
         <td> Strategy </td>
         <td></td>
-        <td> <a href="url">link text</a> </td>
+        <td> <a href="src/3_behavioral/3_08_strategy.py">src/3_behavioral/3_08_strategy.py</a> </td>
     </tr>
     <tr>
         <td> 3.9 </td>
         <td> Template </td>
         <td></td>
-        <td> <a href="url">link text</a> </td>
+        <td> <a href="src/3_behavioral/3_09_template.py">src/3_behavioral/3_09_template.py</a> </td>
     </tr>
     <tr>
         <td> 3.10 </td>
         <td> Visitor </td>
         <td></td>
-        <td> <a href="url">link text</a> </td>
+        <td> <a href="src/3_behavioral/3_10_visitor.py">src/3_behavioral/3_10_visitor.py</a> </td>
     </tr>
     
 </table>
