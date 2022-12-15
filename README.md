@@ -235,7 +235,9 @@ Design patterns can generally be divided into thee categories:
     <tr>
         <td> 3.7 </td>
         <td> State </td>
-        <td></td>
+        <td>
+            allows an object to change its behavior when change in its internal state occurs
+        </td>
         <td> <a href="src/3_behavioral/3_07_state.py">src/3_behavioral/3_07_state.py</a> </td>
     </tr>
     <tr>
