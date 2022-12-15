@@ -243,7 +243,11 @@ Design patterns can generally be divided into thee categories:
     <tr>
         <td> 3.8 </td>
         <td> Strategy </td>
-        <td></td>
+        <td>
+            allows to define complete family of algorithms, encapsulating each
+            one and putting each of them into separate classes, also allows to
+            interchange their objects
+        </td>
         <td> <a href="src/3_behavioral/3_08_strategy.py">src/3_behavioral/3_08_strategy.py</a> </td>
     </tr>
     <tr>
