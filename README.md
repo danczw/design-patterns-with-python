@@ -225,7 +225,11 @@ Design patterns can generally be divided into thee categories:
     <tr>
         <td> 3.6 </td>
         <td> Observer </td>
-        <td></td>
+        <td>
+            allows to define or create a subscription mechanism to send notification
+            to multiple objects about any new event that happens to the object
+            that they are observing
+        </td>
         <td> <a href="src/3_behavioral/3_06_observer.py">src/3_behavioral/3_06_observer.py</a> </td>
     </tr>
     <tr>
