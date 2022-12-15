@@ -216,7 +216,10 @@ Design patterns can generally be divided into thee categories:
     <tr>
         <td> 3.5 </td>
         <td> Memento </td>
-        <td></td>
+        <td>
+            provides the ability to restore an object to its previous state
+            without revealing the details of concrete implementations
+        </td>
         <td> <a href="src/3_behavioral/3_05_memento.py">src/3_behavioral/3_05_memento.py</a> </td>
     </tr>
     <tr>
