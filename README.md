@@ -207,7 +207,10 @@ Design patterns can generally be divided into thee categories:
     <tr>
         <td> 3.4 </td>
         <td> Mediator </td>
-        <td></td>
+        <td>
+            reduce unordered dependencies between objects by taking help of
+            mediator objects to communicate with each other
+        </td>
         <td> <a href="src/3_behavioral/3_04_mediator.py">src/3_behavioral/3_04_mediator.py</a> </td>
     </tr>
     <tr>
