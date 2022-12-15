@@ -17,26 +17,26 @@ class Creature:
 # - decouples the coupling between sender and receiver objects
 # - makes objects more flexible to implement, redesign and reuse
 class CreatureModifier:
-    """Abstract Handler"""
+    # Abstract Handler
     def __init__(self, creature:Creature):
         self.creature = creature
         self.next_modifier = None
     
-    """Method adding objects into the chain. """
+    # Method adding objects into the chain. 
     def add_modifier(self, modifier):
         if self.next_modifier:
             self.next_modifier.add_modifier(modifier)
         else:
             self.next_modifier = modifier
 
-    """Method to call objects in the chain. """
+    # Method to call objects in the chain. 
     def handle(self):
         if self.next_modifier:
             self.next_modifier.handle()
 
 
 class DoubleAttack(CreatureModifier):
-    """Concrete Handlers"""
+    # Concrete Handlers
     def handle(self):
         print(f'Doubling {self.creature.name}\'s attack.')
         self.creature.attack *= 2
@@ -44,7 +44,7 @@ class DoubleAttack(CreatureModifier):
 
 
 class DoubleDefence(CreatureModifier):
-    """Concrete Handlers"""
+    # Concrete Handlers
     def handle(self):
         print(f'Doubling {self.creature.name}\'s defence.')
         self.creature.defence *= 2
@@ -56,7 +56,7 @@ if __name__ == '__main__':
     dragon = Creature('Dragon', 6, 4)
     print(dragon)
     
-    """root is the client """
+    # root is the client 
     root = CreatureModifier(dragon)
 
     root.add_modifier(DoubleAttack(dragon))
