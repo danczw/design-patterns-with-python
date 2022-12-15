@@ -253,13 +253,18 @@ Design patterns can generally be divided into thee categories:
     <tr>
         <td> 3.9 </td>
         <td> Template </td>
-        <td></td>
+        <td>
+            defines skeleton of operation and leaves details to be implemented
+            by child class - subclasses can override method implementations as
+            per need but invocation is to be in same way as defined by an abstract class
+        </td>
         <td> <a href="src/3_behavioral/3_09_template.py">src/3_behavioral/3_09_template.py</a> </td>
     </tr>
     <tr>
         <td> 3.10 </td>
         <td> Visitor </td>
-        <td></td>
+        <td>
+        </td>
         <td> <a href="src/3_behavioral/3_10_visitor.py">src/3_behavioral/3_10_visitor.py</a> </td>
     </tr>
     
