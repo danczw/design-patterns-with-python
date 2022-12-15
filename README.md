@@ -183,7 +183,9 @@ Design patterns can generally be divided into thee categories:
     <tr>
         <td> 3.1 </td>
         <td> Chain of Responsibility </td>
-        <td></td>
+        <td>
+            allows to rearrange condition-action blocks dynamically at run-time
+        </td>
         <td> <a href="src/3_behavioral/3_01_chain_of_responsibility.py">src/3_behavioral/3_01_chain_of_responsibility.py</a> </td>
     </tr>
     <tr>
