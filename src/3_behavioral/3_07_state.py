@@ -56,4 +56,10 @@ class Person(EmotionalState):
 
 # run method
 if __name__ == '__main__':
-    pass
+    person = Person(HappyState())
+    print("Hello in happy state: " + person.say_hello())
+    print("Goodbye in happy state: " + person.say_goodbye())
+
+    person.set_state(SadState())
+    print("Hello in sad state: " + person.say_hello())
+    print("Goodbye in sad state: " + person.say_goodbye())
