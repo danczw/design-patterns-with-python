@@ -191,7 +191,11 @@ Design patterns can generally be divided into thee categories:
     <tr>
         <td> 3.2 </td>
         <td> Command </td>
-        <td></td>
+        <td>
+            encapsulates a request as an object, thereby allowing for 
+            parameterization of clients with different requests and the queuing
+            or logging of requests
+        </td>
         <td> <a href="src/3_behavioral/3_02_command.py">src/3_behavioral/3_02_command.py</a> </td>
     </tr>
     <tr>
