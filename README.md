@@ -264,6 +264,7 @@ Design patterns can generally be divided into thee categories:
         <td> 3.10 </td>
         <td> Visitor </td>
         <td>
+            allows to separate algorithm from an object structure on which it operates
         </td>
         <td> <a href="src/3_behavioral/3_10_visitor.py">src/3_behavioral/3_10_visitor.py</a> </td>
     </tr>
