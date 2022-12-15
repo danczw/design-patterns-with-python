@@ -201,7 +201,10 @@ Design patterns can generally be divided into thee categories:
     <tr>
         <td> 3.3 </td>
         <td> Iterator </td>
-        <td></td>
+        <td>
+            allows to traverse elements of collections without taking the
+            exposure of in-depth details of elements
+        </td>
         <td> <a href="src/3_behavioral/3_03_iterator.py">src/3_behavioral/3_03_iterator.py</a> </td>
     </tr>
     <tr>
